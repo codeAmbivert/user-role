@@ -75,7 +75,7 @@ const MobileSideBar = ({ isOpen, onClose }: MobileSidebarModalProps) => {
               <p className="text-[#667085]">
                 Check out the new dashboard view. Pages now load faster.
               </p>
-              <div className="w-full aspect-[215:136] my-3">
+              <div className="w-full aspect-[215/136] my-3">
                 <Image
                   src="/images/new_feature_img.png"
                   alt="New Features"
