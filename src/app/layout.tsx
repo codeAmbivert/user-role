@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "./index.css";
 import { Inter } from "next/font/google";
 import PageLayout from "@/components/layout/PageLayout";
 
