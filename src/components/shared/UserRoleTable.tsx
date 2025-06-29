@@ -316,7 +316,7 @@ const UserRoleTable = () => {
 
       {/* Pagination */}
       {data && data.length > 0 && (
-        <div className="flex flex-wrap gap-3 items-center justify-between py-4 bg-white border-t border-gray-200">
+        <div className="flex flex-wrap gap-3 items-center justify-between py-4 border-t border-gray-200">
           <div className="flex items-center gap-4">
             <div className="text-sm text-gray-700">
               Showing {startIndex + 1} - {Math.min(endIndex, totalItems)} of{" "}
