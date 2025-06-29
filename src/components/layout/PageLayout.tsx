@@ -18,7 +18,7 @@ const PageLayout = ({
       </div>
       <div className="fixed w-full lg:w-4/5 h-screen overflow-hidden right-0 top-0 flex flex-col">
         <div className="lg:hidden sticky top-0 left-0 w-full z-50">
-          <Header openMenu={openMobileMenu} setOpenMenu={setOpenMobileMenu} />
+          <Header setOpenMenu={setOpenMobileMenu} />
         </div>
         <div className="overflow-y-scroll flex-1 bg-[#F9FAFB]">{children}</div>
       </div>
