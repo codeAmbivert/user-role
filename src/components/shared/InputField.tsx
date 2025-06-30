@@ -30,7 +30,7 @@ const InputField = ({
   return (
     <div>
       {label && (
-        <label htmlFor={name} className="text-[#667085] text-sm">
+        <label id="test-input" htmlFor={name} className="text-[#667085] text-sm">
           {label} {/* Render label if provided */}{" "}
           {required && <span className="text-red-500">*</span>}
         </label>
